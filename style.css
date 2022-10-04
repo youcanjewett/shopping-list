@@ -1,4 +1,4 @@
-body {
+html {
     background-image: url(oranges.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,8 +13,24 @@ body {
     align-items: center;
 }
 
+h1 {
+    text-align: center;
+}
+
 .content-wrapper {
     background-color: hsl(39, 77%, 83%, .7);
     border-radius: 2rem;
     padding: 1rem
+}
+
+li {
+    list-style: none;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+li:hover, button:hover {
+    cursor: pointer;
 }
