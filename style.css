@@ -20,7 +20,9 @@ h1 {
 .content-wrapper {
     background-color: hsl(39, 77%, 83%, .7);
     border-radius: 2rem;
-    padding: 1rem
+    padding: 1rem;
+    width: 600px;
+    text-align: center;
 }
 
 li {
